@@ -1,0 +1,7 @@
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\bin\Debug\SocialTest.Business.dll
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\bin\Debug\SocialTest.Business.pdb
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\bin\Debug\SocialTest.Models.dll
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\bin\Debug\SocialTest.Models.pdb
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\obj\Debug\SocialTest.Business.csprojResolveAssemblyReference.cache
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\obj\Debug\SocialTest.Business.dll
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\obj\Debug\SocialTest.Business.pdb
