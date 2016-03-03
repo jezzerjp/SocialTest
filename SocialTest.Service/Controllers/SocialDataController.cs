@@ -43,16 +43,7 @@ namespace SocialTest.Service.Controllers
             _socialDataService = new SocialDataService(providerTypes);
 
             return _socialDataService.GetSocialData(socialDataRequest.Email);
-            //return new SocialData()
-            //{
-            //    SocialDataDetails = new List<SocialDataDetail>()
-            //    {
-            //        new SocialDataDetail()
-            //        {
-            //            FirstName="J", ProviderName = "P"
-            //        }
-            //    }
-            //};
+
         }
 
         // PUT api/values/5

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialTest.Service", "Socia
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialTest.Business", "SocialTest.Business\SocialTest.Business.csproj", "{97511BB1-147C-4964-96BE-5999A9E3DBE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialTest.BusinessTests", "SocialTest.BusinessTests\SocialTest.BusinessTests.csproj", "{101D7F15-CE36-4294-83FB-5A10BB756092}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{97511BB1-147C-4964-96BE-5999A9E3DBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97511BB1-147C-4964-96BE-5999A9E3DBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97511BB1-147C-4964-96BE-5999A9E3DBE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101D7F15-CE36-4294-83FB-5A10BB756092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101D7F15-CE36-4294-83FB-5A10BB756092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101D7F15-CE36-4294-83FB-5A10BB756092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101D7F15-CE36-4294-83FB-5A10BB756092}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
