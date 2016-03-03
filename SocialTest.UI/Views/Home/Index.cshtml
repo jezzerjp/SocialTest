@@ -1,4 +1,4 @@
-﻿@model SocialTest.Models.SocialDataRequest
+﻿@model SocialTest.Models.SocialDataViewModel
 @{
     ViewBag.Title = "Home Page";
 }
@@ -7,28 +7,46 @@
     <h1>SOCIAL DATA TEST</h1>
 </div>
 
-@using (Html.BeginForm())
+@using (Ajax.BeginForm(
+    new AjaxOptions
+    {
+        HttpMethod = "Post",
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = "results"
+    }))
 {
     @Html.AntiForgeryToken()
 
-    <div class="form-horizontal">
+    <div>
         <h4>Inputs</h4>
-        <hr />
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        <div class="form-group">
-            @Html.LabelFor(model => model.Email, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+        <hr/>
+        @Html.ValidationSummary(true, "", new {@class = "text-danger"})
+        <div class="form-group row">
+            @Html.LabelFor(model => model.Email, new {@class = "col-sm-2 control-label"})
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.Email, new {htmlAttributes = new {@class = "form-control"}})
+                @Html.ValidationMessageFor(model => model.Email, "", new {@class = "text-danger"})
+            </div>
+        </div>
+        <div class="form-group row">
+            @Html.Label("Choose Providers", new {@class = "col-sm-2 control-label"})
+            <div class="col-sm-10">
+                @Html.ListBoxFor(model => model.SelectedProviders, Model.Providers, new {@style="width: 200px"})
             </div>
         </div>
 
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Save" class="btn btn-default"/>
+        <div class="form-group row">
+            <div class="col-sm-offset-2 col-sm-10">
+                <input type="submit" value="Submit" class="btn btn-default"/>
             </div>
         </div>
 
+    </div>
 
+    <hr/>
+
+    <h4>Results</h4>
+    <div id="results">
+        
     </div>
 }

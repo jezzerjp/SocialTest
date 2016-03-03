@@ -5,3 +5,14 @@ C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Busi
 C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\obj\Debug\SocialTest.Business.csprojResolveAssemblyReference.cache
 C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\obj\Debug\SocialTest.Business.dll
 C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\obj\Debug\SocialTest.Business.pdb
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\bin\Debug\System.Web.Mvc.dll
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\bin\Debug\System.Web.Razor.dll
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\bin\Debug\System.Web.WebPages.dll
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\bin\Debug\System.Web.Mvc.xml
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\bin\Debug\System.Web.Razor.xml
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\bin\Debug\System.Web.WebPages.xml
+C:\Users\Jeremy\Documents\Visual Studio 2015\Projects\SocialTest\SocialTest.Business\bin\Debug\System.Web.WebPages.Deployment.xml

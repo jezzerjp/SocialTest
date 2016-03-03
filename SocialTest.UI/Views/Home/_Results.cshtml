@@ -1,0 +1,10 @@
+﻿@model SocialTest.Models.SocialData
+
+<ul>
+    @foreach (var item in Model.SocialDataDetails)
+    {
+        <li>
+            Name from @item.ProviderName is @item.FirstName
+        </li>
+    }
+</ul>

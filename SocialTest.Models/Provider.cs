@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace SocialTest.Models
 {
-    public class ProviderList
+    public class Provider
     {
-        public List<string> Providers { get; set; }
+        public string ProviderId { get; set; }
+        public string ProviderName { get; set; }
     }
+
 }

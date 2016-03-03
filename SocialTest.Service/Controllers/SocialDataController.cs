@@ -38,10 +38,21 @@ namespace SocialTest.Service.Controllers
         [HttpPost]
         public SocialData GetSocialData([FromBody] SocialDataRequest socialDataRequest)
         {
-            var providerTypes = ProviderHelper.BuildSocialDataProviders(socialDataRequest.Providers);
+            
+            var providerTypes = ProviderHelper.BuildSocialDataProviders(socialDataRequest.SelectedProviders);
             _socialDataService = new SocialDataService(providerTypes);
 
             return _socialDataService.GetSocialData(socialDataRequest.Email);
+            //return new SocialData()
+            //{
+            //    SocialDataDetails = new List<SocialDataDetail>()
+            //    {
+            //        new SocialDataDetail()
+            //        {
+            //            FirstName="J", ProviderName = "P"
+            //        }
+            //    }
+            //};
         }
 
         // PUT api/values/5
